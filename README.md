@@ -270,10 +270,6 @@ ONNX INT8 Static          0.848     0.838        0.843
 - Best model is automatically saved as `best.pt` based on validation accuracy
 - CUDA is automatically used if available, otherwise CPU
 
-## License
-
-MIT License
-
 ## Author
 
-Deep Learning Assignment 2
+Syed Fahad Shah
