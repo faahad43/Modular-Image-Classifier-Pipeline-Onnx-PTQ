@@ -30,3 +30,4 @@ data/
 *.pt
 *.pth
 *.onnx
+*.onnx.data

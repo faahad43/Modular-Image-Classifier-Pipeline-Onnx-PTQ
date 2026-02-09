@@ -1,0 +1,21 @@
+Experiment: convnext_tiny | Dataset: cifar10
+
+Class-wise Metrics:
+         precision  recall  f1-score  support
+Class_0   0.939000   0.939  0.939000   1000.0
+Class_1   0.964859   0.961  0.962926   1000.0
+Class_2   0.949733   0.888  0.917829   1000.0
+Class_3   0.891892   0.858  0.874618   1000.0
+Class_4   0.911046   0.932  0.921404   1000.0
+Class_5   0.926456   0.907  0.916625   1000.0
+Class_6   0.932563   0.968  0.949951   1000.0
+Class_7   0.929332   0.960  0.944417   1000.0
+Class_8   0.958959   0.958  0.958479   1000.0
+Class_9   0.936232   0.969  0.952334   1000.0
+
+Global Metrics:
+              precision  recall  f1-score    support
+accuracy       0.934000   0.934  0.934000      0.934
+macro avg      0.934007   0.934  0.933758  10000.000
+weighted avg   0.934007   0.934  0.933758  10000.000
+

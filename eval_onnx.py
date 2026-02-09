@@ -175,7 +175,7 @@ if __name__ == "__main__":
     parser.add_argument("--dataset", default="cifar10", help="Dataset name")
     parser.add_argument("--batch_size", type=int, default=32)
     parser.add_argument("--image_size", type=int, default=224)
-    parser.add_argument("--pin_memory", action="store_true")
+    parser.add_argument("--pin_memory", action="store_true", default=False)
     parser.add_argument("--num_worker", type=int, default=2)
     parser.add_argument("--path", default="data", help="Dataset path")
     
