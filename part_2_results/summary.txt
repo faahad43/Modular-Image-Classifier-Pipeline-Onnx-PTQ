@@ -1,0 +1,17 @@
+================================================================================
+Part 2: ONNX Model Comparison
+Model Architecture: convnext_tiny
+Dataset: cifar10
+================================================================================
+
+Comparison Table:
+                   Accuracy  Macro F1  Weighted F1
+PyTorch FP32         0.9347  0.934595     0.934595
+ONNX FP32            0.9347  0.934595     0.934595
+ONNX INT8 Dynamic    0.9336  0.933478     0.933478
+ONNX INT8 Static     0.9154  0.915821     0.915821
+
+Accuracy Drop from PyTorch FP32:
+  ONNX FP32: 0.00%
+  ONNX INT8 Dynamic: 0.11%
+  ONNX INT8 Static: 1.93%
